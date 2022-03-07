@@ -1,6 +1,6 @@
 # revisionDocker
 
-Voir les conteneurs actif
+Voir les conteneurs actifs
 `
 docker ps
 `
