@@ -1,5 +1,7 @@
 # revisionDocker
 
+## Commandes classiques
+
 Voir les conteneurs actifs
 `
 docker ps
@@ -45,7 +47,9 @@ Supprimer une image
 docker image rm $id
 `
 
-Créer une image, le **Dockerfile**:
+## Créer une image
+
+Le **Dockerfile**:
 ```
 FROM python:3.9.10-slim-buster
 WORKDIR /app
@@ -64,7 +68,9 @@ Créer un conteneur à partir d'une image
 docker run -p "80:80" $nomImage
 `
 
-Créer un docker compose, le fichier **docker-compose.yml**:
+## Créer un docker compose
+
+Le fichier **docker-compose.yml**:
 ```
 version: "3"
 services:
@@ -97,6 +103,8 @@ Supprimer tous ce qui est lié au docker-compose.yml
 `
 docker-compose down
 `
+
+## Nettoyer
 
 Supprimer tous les éléments d'une catégories à condition qu'il ne soit pas up
 ```
