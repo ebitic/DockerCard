@@ -17,7 +17,7 @@ Lancer un conteneur avec une image (-i pour interaction)
 docker run -it ubuntu bash  
 `  
 
-Le docker run comprend les actions suivantes : `docker create` et `docker start`
+_Le docker run comprend les actions suivantes : `docker create` et `docker start`_
 
 Stopper un conteneur
 `
