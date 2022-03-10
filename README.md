@@ -34,6 +34,8 @@ Supprimer un conteneur
 docker rm $id
 `
 
+# Les images docker
+
 Lister les images
 `
 docker image ls
